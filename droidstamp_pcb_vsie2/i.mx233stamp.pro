@@ -126,4 +126,4 @@ LibName55=../components/Reset
 LibName56=../components/stm32f100vxx
 LibName57=../components/lt1117cst
 LibName58=../components/zxmhc3f381n8
-LibName59=/home/afc/devel/robotica/SIEBOT/PCB_V2/components/stm32f4_lqfp100
+LibName59=../components/stm32f4_lqfp100
