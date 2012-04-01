@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-31)-stable date = Fri 17 Feb 2012 08:04:51 AM COT
+Cmp-Mod V01 Created by CvPcb (2012-03-20 BZR 3473)-testing date = Sun 01 Apr 2012 04:04:06 PM COT
 
 BeginCmp
 TimeStamp = /4D30AC69/4D42D643;
@@ -134,10 +134,24 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E78AF25/4F3EDEDE;
+Reference = C19;
+ValeurCmp = 2.2uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E3BEC51/4E414FF2;
 Reference = C20;
 ValeurCmp = 100nF;
 IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E78AF25/4F3EDEE6;
+Reference = C21;
+ValeurCmp = 2.2uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -456,7 +470,7 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D30B991/4D409658;
+TimeStamp = /4D30AC69/4F3FC78B;
 Reference = C68;
 ValeurCmp = 0.1uF;
 IdModule  = SM0603;
@@ -516,6 +530,13 @@ TimeStamp = /4E78AF25/4E7B4A85;
 Reference = C76;
 ValeurCmp = 33uF;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3BEC51/4F522649;
+Reference = C77;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -633,7 +654,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D30AC69/4DA85BBA;
 Reference = L2;
-ValeurCmp = HZ0805D152R-10_(1500_ohm);
+ValeurCmp = HZ0805D152R-10_;
 IdModule  = SM0805;
 EndCmp
 
@@ -675,7 +696,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D30AC69/4E40541F;
 Reference = L8;
-ValeurCmp = HZ0805D152R-10_(1500_ohm);
+ValeurCmp = HZ0805D152R-10_;
 IdModule  = SM0805;
 EndCmp
 
@@ -689,21 +710,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4D30AC69/4E4D0325;
 Reference = L11;
-ValeurCmp = HZ0805D152R-10_(1500_ohm);
+ValeurCmp = HZ0805D152R-10_;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D30AC69/4E4D0338;
 Reference = L12;
-ValeurCmp = HZ0805D152R-10_(1500_ohm);
+ValeurCmp = HZ0805D152R-10_;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D30AC69/4E4D033C;
 Reference = L13;
-ValeurCmp = HZ0805D152R-10_(1500_ohm);
+ValeurCmp = HZ0805D152R-10_;
 IdModule  = SM0805;
 EndCmp
 
@@ -904,7 +925,7 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D30B991/4D7E71FA;
+TimeStamp = /4D30AC69/4F3FC789;
 Reference = R8;
 ValeurCmp = 10k;
 IdModule  = SM0603;
@@ -1184,6 +1205,27 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D30AC69/4F3FC9AB;
+Reference = R48;
+ValeurCmp = 0;
+IdModule  = sm0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D30AC69/4F3FC9AE;
+Reference = R49;
+ValeurCmp = 0;
+IdModule  = sm0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3BEC51/4F522458;
+Reference = R50;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D30AC69/4D7E9426;
 Reference = U1;
 ValeurCmp = ADM3101E;
@@ -1198,7 +1240,7 @@ IdModule  = TSOP66_JEDEC_DDR_SDRAM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D30B991/4D40953F;
+TimeStamp = /4D30AC69/4F3FC78E;
 Reference = U3;
 ValeurCmp = M25P32;
 IdModule  = M25PXX;
@@ -1240,10 +1282,10 @@ IdModule  = SOT-523;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E3BEC51/4E41C620;
+TimeStamp = /4E78AF25/4F78CA64;
 Reference = U9;
-ValeurCmp = MCP130;
-IdModule  = SOT-523;
+ValeurCmp = STM32F4_LQFP100;
+IdModule  = TQFP_100;
 EndCmp
 
 BeginCmp
