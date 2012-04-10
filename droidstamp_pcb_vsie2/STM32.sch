@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 01 Apr 2012 04:17:27 PM COT
+EESchema Schematic File Version 2  date Tue 10 Apr 2012 04:09:56 PM COT
 LIBS:con-jack
 LIBS:adm3101e
 LIBS:microsd
@@ -65,7 +65,7 @@ $Descr User 12000 10000
 encoding utf-8
 Sheet 4 5
 Title ""
-Date "1 apr 2012"
+Date "10 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -161,9 +161,9 @@ Text Label 4000 8650 0    60   ~ 0
 GND
 Text Label 4000 8550 0    60   ~ 0
 GND
-Text Label -250 3950 0    60   ~ 0
+Text Label 1350 3850 0    60   ~ 0
 C2M4
-Text Label -250 3650 0    60   ~ 0
+Text Label 1350 3550 0    60   ~ 0
 C1M4
 Text Label -4500 6450 0    60   ~ 0
 C1M1
@@ -233,12 +233,12 @@ $EndComp
 $Comp
 L ABM8G X3
 U 1 1 4F3524C7
-P -1000 450
-F 0 "X3" H -1000 600 60  0000 C CNN
-F 1 "12MHz" H -1000 300 60  0000 C CNN
-F 2 "ABM8G" H -1000 450 60  0001 C CNN
-	1    -1000 450 
-	0    1    1    0   
+P -150 2000
+F 0 "X3" H -150 2150 60  0000 C CNN
+F 1 "12MHz" H -150 1850 60  0000 C CNN
+F 2 "ABM8G" H -150 2000 60  0001 C CNN
+	1    -150 2000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L ZXMHC3F381N8 U15
@@ -743,11 +743,11 @@ F 2 "SM0603" H 7750 1350 60  0001 C CNN
 	1    7750 1350
 	1    0    0    -1  
 $EndComp
-Text Label -150 2800 0    60   ~ 0
+Text Label 1450 2700 0    60   ~ 0
 FP42
-Text Label -150 2700 0    60   ~ 0
+Text Label 1450 2600 0    60   ~ 0
 FP41
-Text Label -250 3550 0    60   ~ 0
+Text Label 1350 3450 0    60   ~ 0
 FP36
 $Comp
 L R R27
@@ -929,13 +929,13 @@ Text Label -5600 5150 0    60   ~ 0
 FP34
 Text Label -750 6150 0    60   ~ 0
 FP35
-Text Label -150 3300 0    60   ~ 0
+Text Label 1450 3200 0    60   ~ 0
 FP19
-Text Label -150 3200 0    60   ~ 0
+Text Label 1450 3100 0    60   ~ 0
 FP18
-Text Label -150 3100 0    60   ~ 0
+Text Label 1450 3000 0    60   ~ 0
 FP17
-Text Label -150 3000 0    60   ~ 0
+Text Label 1450 2900 0    60   ~ 0
 FP16
 Text Label -5600 6050 0    60   ~ 0
 FP15
@@ -1116,10 +1116,10 @@ NRST
 $Comp
 L GND #PWR91
 U 1 1 4DCDB180
-P -1850 500
-F 0 "#PWR91" H -1850 500 30  0001 C CNN
-F 1 "GND" H -1850 430 30  0001 C CNN
-	1    -1850 500 
+P 700 2250
+F 0 "#PWR91" H 700 2250 30  0001 C CNN
+F 1 "GND" H 700 2180 30  0001 C CNN
+	1    700  2250
 	-1   0    0    -1  
 $EndComp
 Text Label -4100 1750 0    60   ~ 0
@@ -1178,22 +1178,22 @@ LEDS
 $Comp
 L C C26
 U 1 1 4DCDB175
-P -1350 150
-F 0 "C26" H -1300 250 50  0000 L CNN
-F 1 "22pF" H -1300 50  50  0000 L CNN
-F 2 "SM0603" H -1350 150 60  0001 C CNN
-	1    -1350 150 
-	0    1    1    0   
+P 200 2300
+F 0 "C26" H 250 2400 50  0000 L CNN
+F 1 "22pF" H 250 2200 50  0000 L CNN
+F 2 "SM0603" H 200 2300 60  0001 C CNN
+	1    200  2300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C28
 U 1 1 4DCDB174
-P -1350 750
-F 0 "C28" H -1300 850 50  0000 L CNN
-F 1 "22pF" H -1300 650 50  0000 L CNN
-F 2 "SM0603" H -1350 750 60  0001 C CNN
-	1    -1350 750 
-	0    1    1    0   
+P 200 1700
+F 0 "C28" H 250 1800 50  0000 L CNN
+F 1 "22pF" H 250 1600 50  0000 L CNN
+F 2 "SM0603" H 200 1700 60  0001 C CNN
+	1    200  1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L STM32F4_LQFP100 U9
@@ -1359,11 +1359,11 @@ Wire Wire Line
 Wire Wire Line
 	6900 1150 6900 1250
 Wire Wire Line
-	-1550 400  -1550 150 
+	400  2050 400  2300
 Wire Wire Line
-	-1550 400  -1400 400 
+	400  2050 250  2050
 Wire Wire Line
-	450  3650 -450 3650
+	2050 3550 1150 3550
 Connection ~ 9450 2300
 Wire Wire Line
 	9300 2300 9850 2300
@@ -1400,9 +1400,9 @@ Wire Wire Line
 Wire Wire Line
 	-3800 6150 -4700 6150
 Wire Wire Line
-	-350 3200 550  3200
+	1250 3100 2150 3100
 Wire Wire Line
-	550  3000 -350 3000
+	2150 2900 1250 2900
 Wire Wire Line
 	-3800 5950 -5650 5950
 Wire Wire Line
@@ -1414,22 +1414,16 @@ Wire Wire Line
 Wire Wire Line
 	-4150 3550 -3800 3550
 Wire Wire Line
-	-1150 750  250  750 
-Wire Wire Line
 	10400 2250 10400 2150
 Connection ~ 9450 2700
 Connection ~ 8350 2700
 Connection ~ 7650 2700
-Connection ~ -1000 750 
-Connection ~ -1000 150 
+Connection ~ -150 1700
+Connection ~ -150 2300
 Wire Wire Line
-	-1150 150  -600 150 
+	-800 2300 0    2300
 Wire Wire Line
 	-1900 1150 -1900 1300
-Wire Wire Line
-	-600 150  -600 650 
-Wire Wire Line
-	-600 650  250  650 
 Wire Wire Line
 	-5650 5750 -3800 5750
 Wire Wire Line
@@ -1441,16 +1435,16 @@ Wire Wire Line
 Wire Wire Line
 	-4100 1750 -3800 1750
 Wire Wire Line
-	-1550 150  -1650 150 
+	400  2300 500  2300
 Wire Wire Line
-	-1650 150  -1650 750 
+	500  2300 500  1700
 Wire Wire Line
-	-1650 750  -1550 750 
+	500  1700 400  1700
 Wire Wire Line
-	-1650 350  -1850 350 
+	500  2100 700  2100
 Wire Wire Line
-	-1850 350  -1850 500 
-Connection ~ -1650 350 
+	700  2100 700  2250
+Connection ~ 500  2100
 Wire Wire Line
 	-4100 1950 -3800 1950
 Wire Wire Line
@@ -1494,9 +1488,9 @@ Wire Wire Line
 Wire Wire Line
 	-3800 2150 -5650 2150
 Wire Wire Line
-	550  3100 -350 3100
+	2150 3000 1250 3000
 Wire Wire Line
-	550  3300 -350 3300
+	2150 3200 1250 3200
 Wire Wire Line
 	-3800 4450 -5650 4450
 Wire Wire Line
@@ -1548,17 +1542,17 @@ Wire Wire Line
 Wire Wire Line
 	8550 2700 8550 2800
 Wire Wire Line
-	450  3550 -450 3550
+	2050 3450 1150 3450
 Wire Wire Line
-	450  3950 -450 3950
+	2050 3850 1150 3850
 Wire Wire Line
-	500  2700 -400 2700
+	2100 2600 1200 2600
 Wire Wire Line
-	500  2800 -400 2800
+	2100 2700 1200 2700
 Wire Wire Line
-	-1400 500  -1550 500 
+	250  1950 400  1950
 Wire Wire Line
-	-1550 500  -1550 750 
+	400  1950 400  1700
 Wire Wire Line
 	7750 1150 7650 1150
 Wire Wire Line
@@ -1756,4 +1750,10 @@ Connection ~ -2200 1250
 Wire Wire Line
 	-2350 1150 -2350 1250
 Connection ~ -2350 1250
+Wire Wire Line
+	-800 2200 -400 2200
+Wire Wire Line
+	-400 2200 -400 1700
+Wire Wire Line
+	-400 1700 0    1700
 $EndSCHEMATC
