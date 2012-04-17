@@ -1,68 +1,8 @@
-EESchema Schematic File Version 2  date Tue 10 Apr 2012 04:09:56 PM COT
-LIBS:con-jack
-LIBS:adm3101e
-LIBS:microsd
-LIBS:transistor-npn
-LIBS:ipc-7351-transistor
-LIBS:switch-misc
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:micron_ddr_512Mb
-LIBS:iMX23
-LIBS:sdmmc
-LIBS:usbconn
-LIBS:fsusb20
-LIBS:r_pack2
-LIBS:pasives-connectors
-LIBS:EEPROM
-LIBS:PWR
-LIBS:m25p32
-LIBS:PROpendous-cache
-LIBS:w_analog
-LIBS:gl850g
-LIBS:srf2012
-LIBS:rclamp0502b
-LIBS:mcp130
-LIBS:ABM8G
-LIBS:usb_a
-LIBS:Reset
-LIBS:stm32f100vxx
-LIBS:lt1117cst
-LIBS:zxmhc3f381n8
-LIBS:stm32f4_lqfp100
-LIBS:i.mx233stamp-cache
-EELAYER 25  0
+EESchema Schematic File Version 2  date Tue 17 Apr 2012 06:13:45 AM EDT
+LIBS:../components/con-jack,../components/adm3101e,../components/microsd,../components/transistor-npn,../components/ipc-7351-transistor,../components/switch-misc,power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,../components/micron_ddr_512Mb,../components/iMX23,../components/sdmmc,../components/usbconn,../components/fsusb20,../components/r_pack2,../components/pasives-connectors,../components/EEPROM,../components/PWR,../components/m25p32,../components/PROpendous-cache,../components/w_analog,../components/gl850g,../components/srf2012,../components/rclamp0502b,../components/mcp130,../components/ABM8G,../components/usb_a,../components/Reset,../components/stm32f100vxx,../components/lt1117cst,../components/zxmhc3f381n8,../components/stm32f4_lqfp100,./i.mx233stamp.cache
+EELAYER 24  0
 EELAYER END
-$Descr A4 11693 8268
-encoding utf-8
+$Descr A4 11700 8267
 Sheet 5 5
 Title ""
 Date "10 apr 2012"
