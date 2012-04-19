@@ -1,9 +1,9 @@
-EESchema Schematic File Version 2  date Tue 17 Apr 2012 09:17:39 PM EDT
-LIBS:../components/con-jack,/home/gralfca/dev/emQbit/droidstamp-hw/components/zxct1009,../components/adm3101e,../components/microsd,../components/transistor-npn,../components/ipc-7351-transistor,../components/switch-misc,power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,../components/micron_ddr_512Mb,../components/iMX23,../components/sdmmc,../components/usbconn,../components/fsusb20,../components/r_pack2,../components/pasives-connectors,../components/EEPROM,../components/PWR,../components/m25p32,../components/PROpendous-cache,../components/w_analog,../components/gl850g,../components/srf2012,../components/rclamp0502b,../components/mcp130,../components/ABM8G,../components/usb_a,../components/Reset,../components/stm32f100vxx,../components/lt1117cst,../components/zxmhc3f381n8,../components/stm32f4_lqfp100,./i.mx233stamp.cache
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 07:33:46 PM EDT
+LIBS:../components/con-jack,../components/zxct1009,../components/adm3101e,../components/microsd,../components/transistor-npn,../components/ipc-7351-transistor,../components/switch-misc,power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,../components/micron_ddr_512Mb,../components/iMX23,../components/sdmmc,../components/usbconn,../components/fsusb20,../components/r_pack2,../components/pasives-connectors,../components/EEPROM,../components/PWR,../components/m25p32,../components/PROpendous-cache,../components/w_analog,../components/gl850g,../components/srf2012,../components/rclamp0502b,../components/mcp130,../components/ABM8G,../components/usb_a,../components/Reset,../components/stm32f100vxx,../components/lt1117cst,../components/zxmhc3f381n8,../components/stm32f4_lqfp100,./i.mx233stamp.cache
 EELAYER 24  0
 EELAYER END
 $Descr User 12000 10000
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date "10 apr 2012"
 Rev ""
@@ -13,61 +13,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6250 3550 0    60   ~ 0
+$Sheet
+S 6900 3700 4550 1500
+U 4F909BDC
+F0 "feedback_drivers" 60
+F1 "motors_feedback_drivers.sch" 60
+$EndSheet
+Text Label 2950 1150 0    60   ~ 0
 M1_torque_sense
 Wire Wire Line
-	6250 3550 6250 3700
+	2950 1150 2950 1300
 Wire Wire Line
-	6250 4100 6850 4100
+	2950 1700 3550 1700
 Wire Wire Line
-	6950 3650 6750 3650
+	3650 1250 3450 1250
 Wire Wire Line
-	8500 4100 8500 3850
+	5200 1700 5200 1450
 Wire Wire Line
-	8500 3850 8250 3850
+	5200 1450 4950 1450
 Wire Wire Line
-	6400 5100 6650 5100
+	3800 800  3800 750 
 Wire Wire Line
-	7100 3200 7100 3150
-Wire Wire Line
-	7100 3150 7200 3150
-Wire Wire Line
-	5400 5850 5400 5800
-Wire Wire Line
-	5400 4550 5400 4500
-Wire Wire Line
-	5400 4500 5500 4500
-Wire Wire Line
-	5400 5800 5500 5800
-Wire Wire Line
-	4350 6000 4200 6000
-Wire Wire Line
-	4200 6000 4200 5900
-Connection ~ 4200 5000
-Wire Wire Line
-	4200 5400 4200 5000
-Wire Wire Line
-	4900 5300 5000 5300
-Wire Wire Line
-	4900 5000 5000 5000
-Wire Wire Line
-	6600 4500 5900 4500
-Wire Wire Line
-	6600 5800 5900 5800
-Wire Wire Line
-	5000 5200 4900 5200
-Wire Wire Line
-	5650 3550 5650 3900
-Wire Wire Line
-	5650 2250 5650 3150
-Wire Wire Line
-	3400 2250 3100 2250
-Wire Wire Line
-	5650 2250 5200 2250
-Wire Wire Line
-	3400 2100 3100 2100
-Wire Wire Line
-	2550 5400 2550 5700
+	3800 750  3900 750 
 Wire Wire Line
 	-2500 7050 -2500 7000
 Connection ~ -2900 7100
@@ -86,17 +53,13 @@ Wire Wire Line
 Wire Wire Line
 	2050 7600 1350 7600
 Wire Wire Line
-	8650 6200 8300 6200
+	8700 5800 8350 5800
 Wire Wire Line
 	1900 7450 1350 7450
 Wire Wire Line
 	3700 7900 3000 7900
 Wire Wire Line
 	1500 8000 2200 8000
-Wire Wire Line
-	6400 5300 6550 5300
-Wire Wire Line
-	6400 5000 6550 5000
 Wire Wire Line
 	6950 2300 8350 2300
 Wire Wire Line
@@ -203,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	400  2050 250  2050
 Wire Wire Line
-	2050 3550 1150 3550
+	1450 3900 550  3900
 Connection ~ 9450 2300
 Wire Wire Line
 	9300 2300 9850 2300
@@ -240,9 +203,9 @@ Wire Wire Line
 Wire Wire Line
 	-3800 6150 -4700 6150
 Wire Wire Line
-	1250 3100 2150 3100
+	650  3450 1550 3450
 Wire Wire Line
-	2150 2900 1250 2900
+	1550 3250 650  3250
 Wire Wire Line
 	-3800 5950 -5650 5950
 Wire Wire Line
@@ -328,9 +291,9 @@ Wire Wire Line
 Wire Wire Line
 	-3800 2150 -5650 2150
 Wire Wire Line
-	2150 3000 1250 3000
+	1550 3350 650  3350
 Wire Wire Line
-	2150 3200 1250 3200
+	1550 3550 650  3550
 Wire Wire Line
 	-3800 4450 -5650 4450
 Wire Wire Line
@@ -382,13 +345,13 @@ Wire Wire Line
 Wire Wire Line
 	8550 2700 8550 2800
 Wire Wire Line
-	2050 3450 1150 3450
+	1450 3800 550  3800
 Wire Wire Line
-	2050 3850 1150 3850
+	1450 4200 550  4200
 Wire Wire Line
-	2100 2600 1200 2600
+	1500 2950 600  2950
 Wire Wire Line
-	2100 2700 1200 2700
+	1500 3050 600  3050
 Wire Wire Line
 	250  1950 400  1950
 Wire Wire Line
@@ -408,147 +371,106 @@ Wire Wire Line
 	7000 1050 6700 1050
 Wire Wire Line
 	1500 8200 2200 8200
+Connection ~ 8500 7700
 Wire Wire Line
-	6650 5200 6400 5200
-Connection ~ 11400 4800
+	8500 7700 8500 7400
 Wire Wire Line
-	9550 5000 9550 4000
+	8500 6700 8500 7100
 Wire Wire Line
-	11400 5300 10500 5300
-Connection ~ 11150 4300
+	6950 7100 6800 7100
 Wire Wire Line
-	11400 4300 10500 4300
+	6800 7100 6800 8000
 Wire Wire Line
-	10100 4300 9700 4300
+	6800 8000 7550 8000
 Wire Wire Line
-	11250 4900 11000 4900
+	8500 7400 8350 7400
 Wire Wire Line
-	9050 4900 9600 4900
+	7450 7700 7050 7700
 Wire Wire Line
-	11400 4800 11000 4800
+	7550 6400 6900 6400
 Wire Wire Line
-	9050 4800 9600 4800
+	6950 7400 6900 7400
 Wire Wire Line
-	11000 4700 11150 4700
+	8500 7100 8350 7100
 Wire Wire Line
-	9550 5000 9600 5000
+	6400 7200 6950 7200
 Wire Wire Line
-	9550 4000 10200 4000
+	8750 7200 8350 7200
 Wire Wire Line
-	10100 5300 9700 5300
+	6400 7300 6950 7300
 Wire Wire Line
-	11000 5000 11150 5000
+	8600 7300 8350 7300
 Wire Wire Line
-	10200 5600 9450 5600
+	7450 6700 7050 6700
 Wire Wire Line
-	9450 5600 9450 4700
+	8750 6700 7850 6700
+Connection ~ 8500 6700
 Wire Wire Line
-	9450 4700 9600 4700
+	8750 7700 7850 7700
 Wire Wire Line
-	11150 4700 11150 4300
+	6900 7400 6900 6400
+Connection ~ 8750 7200
 Wire Wire Line
-	11150 5000 11150 5300
-Connection ~ 11150 5300
-Connection ~ 8500 8100
+	8350 5900 8700 5900
 Wire Wire Line
-	8500 8100 8500 7800
+	9500 5900 9900 5900
 Wire Wire Line
-	8500 7100 8500 7500
+	8350 6000 8700 6000
 Wire Wire Line
-	6950 7500 6800 7500
+	9500 6000 9900 6000
 Wire Wire Line
-	6800 7500 6800 8400
+	8350 5600 8700 5600
 Wire Wire Line
-	6800 8400 7550 8400
-Wire Wire Line
-	8500 7800 8350 7800
-Wire Wire Line
-	7450 8100 7050 8100
-Wire Wire Line
-	7550 6800 6900 6800
-Wire Wire Line
-	6950 7800 6900 7800
-Wire Wire Line
-	8500 7500 8350 7500
-Wire Wire Line
-	6400 7600 6950 7600
-Wire Wire Line
-	8750 7600 8350 7600
-Wire Wire Line
-	6400 7700 6950 7700
-Wire Wire Line
-	8600 7700 8350 7700
-Wire Wire Line
-	7450 7100 7050 7100
-Wire Wire Line
-	8750 7100 7850 7100
-Connection ~ 8500 7100
-Wire Wire Line
-	8750 8100 7850 8100
-Wire Wire Line
-	6900 7800 6900 6800
-Connection ~ 8750 7600
-Wire Wire Line
-	8300 6300 8650 6300
-Wire Wire Line
-	9450 6300 9850 6300
-Wire Wire Line
-	8300 6400 8650 6400
-Wire Wire Line
-	9450 6400 9850 6400
-Wire Wire Line
-	8300 6000 8650 6000
-Wire Wire Line
-	9450 6000 9850 6000
+	9500 5600 9900 5600
 Wire Wire Line
 	1500 7900 2200 7900
 Wire Wire Line
 	3700 8000 3000 8000
 Wire Wire Line
-	9450 6100 9850 6100
+	9500 5700 9900 5700
 Wire Wire Line
-	8300 6100 8650 6100
-Connection ~ 11400 7600
+	8350 5700 8700 5700
+Connection ~ 11400 7200
 Wire Wire Line
-	9550 7800 9550 6800
+	9550 7400 9550 6400
 Wire Wire Line
-	11400 8100 10500 8100
-Connection ~ 11150 7100
+	11400 7700 10500 7700
+Connection ~ 11150 6700
 Wire Wire Line
-	11400 7100 10500 7100
+	11400 6700 10500 6700
 Wire Wire Line
-	10100 7100 9700 7100
+	10100 6700 9700 6700
 Wire Wire Line
-	11250 7700 11000 7700
+	11250 7300 11000 7300
 Wire Wire Line
-	9050 7700 9600 7700
+	9050 7300 9600 7300
 Wire Wire Line
-	11400 7600 11000 7600
+	11400 7200 11000 7200
 Wire Wire Line
-	9050 7600 9600 7600
+	9050 7200 9600 7200
 Wire Wire Line
-	11000 7500 11150 7500
+	11000 7100 11150 7100
 Wire Wire Line
-	9550 7800 9600 7800
+	9550 7400 9600 7400
 Wire Wire Line
-	9550 6800 10200 6800
+	9550 6400 10200 6400
 Wire Wire Line
-	10100 8100 9700 8100
+	10100 7700 9700 7700
 Wire Wire Line
-	11000 7800 11150 7800
+	11000 7400 11150 7400
 Wire Wire Line
-	10200 8400 9450 8400
+	10200 8000 9450 8000
 Wire Wire Line
-	9450 8400 9450 7500
+	9450 8000 9450 7100
 Wire Wire Line
-	9450 7500 9600 7500
+	9450 7100 9600 7100
 Wire Wire Line
-	11150 7500 11150 7100
+	11150 7100 11150 6700
 Wire Wire Line
-	11150 7800 11150 8100
-Connection ~ 11150 8100
+	11150 7400 11150 7700
+Connection ~ 11150 7700
 Wire Wire Line
-	9850 6200 9450 6200
+	9900 5800 9500 5800
 Wire Wire Line
 	2050 6950 2050 6850
 Wire Wire Line
@@ -585,328 +507,88 @@ Wire Wire Line
 Wire Wire Line
 	-400 1700 0    1700
 Wire Wire Line
-	2550 4800 2550 4900
+	4500 750  4650 750 
 Wire Wire Line
-	2550 4300 2550 4100
+	5400 1050 4950 1050
 Wire Wire Line
-	3200 5400 3200 5700
-Wire Wire Line
-	3200 4800 3200 4900
-Wire Wire Line
-	3200 4300 3200 4100
-Wire Wire Line
-	3400 1950 3100 1950
-Wire Wire Line
-	5200 1950 5200 1700
-Wire Wire Line
-	3400 3150 3100 3150
-Wire Wire Line
-	5650 3150 5200 3150
-Wire Wire Line
-	3400 3000 3100 3000
-Wire Wire Line
-	3400 2850 3100 2850
-Wire Wire Line
-	5200 2850 5200 2600
-Wire Wire Line
-	5000 5100 4900 5100
-Wire Wire Line
-	7100 4500 7100 5800
-Wire Wire Line
-	4400 5000 4100 5000
-Wire Wire Line
-	4400 5300 4100 5300
-Wire Wire Line
-	4350 5400 4350 5300
-Connection ~ 4350 5300
-Wire Wire Line
-	4350 5900 4350 6150
-Connection ~ 4350 6000
-Wire Wire Line
-	3100 3150 3100 3250
-Wire Wire Line
-	3100 2250 3100 2350
-Wire Wire Line
-	5400 6100 5600 6100
-Wire Wire Line
-	5400 4200 5600 4200
-Wire Wire Line
-	7800 3150 7950 3150
-Wire Wire Line
-	8700 3450 8250 3450
-Wire Wire Line
-	6850 4100 6850 4200
+	3550 1700 3550 1800
 $Comp
 L GND #PWR?
 U 1 1 4F8E14C8
-P 6850 4200
-F 0 "#PWR?" H 6850 4200 30  0001 C CNN
-F 1 "GND" H 6850 4130 30  0001 C CNN
-	1    6850 4200
+P 3550 1800
+F 0 "#PWR?" H 3550 1800 30  0001 C CNN
+F 1 "GND" H 3550 1730 30  0001 C CNN
+	1    3550 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 4F8E14B7
-P 6250 3900
-F 0 "C?" H 6300 4000 50  0000 L CNN
-F 1 "0.1uF" H 6300 3800 50  0000 L CNN
-	1    6250 3900
+P 2950 1500
+F 0 "C?" H 3000 1600 50  0000 L CNN
+F 1 "0.1uF" H 3000 1400 50  0000 L CNN
+	1    2950 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 4F8E13BA
-P 6850 3900
-F 0 "R?" V 6930 3900 50  0000 C CNN
-F 1 "5k1" V 6850 3900 50  0000 C CNN
-	1    6850 3900
+P 3550 1500
+F 0 "R?" V 3630 1500 50  0000 C CNN
+F 1 "5k1" V 3550 1500 50  0000 C CNN
+	1    3550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 4F8E13B5
-P 6500 3650
-F 0 "R?" V 6580 3650 50  0000 C CNN
-F 1 "1k" V 6500 3650 50  0000 C CNN
-	1    6500 3650
+P 3200 1250
+F 0 "R?" V 3280 1250 50  0000 C CNN
+F 1 "1k" V 3200 1250 50  0000 C CNN
+	1    3200 1250
 	0    1    1    0   
 $EndComp
-Text Label 8500 4100 0    60   ~ 0
+Text Label 5200 1700 0    60   ~ 0
 I_sense_M1
-Text Label 8700 3450 0    60   ~ 0
+Text Label 5400 1050 0    60   ~ 0
 VMTR
 $Comp
 L R R?
 U 1 1 4F8E135A
-P 8500 3700
-F 0 "R?" V 8580 3700 50  0000 C CNN
-F 1 "0.05" V 8500 3700 50  0000 C CNN
-	1    8500 3700
+P 5200 1300
+F 0 "R?" V 5280 1300 50  0000 C CNN
+F 1 "0.05" V 5200 1300 50  0000 C CNN
+	1    5200 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ZXCT1009 U?
 U 1 1 4F8E133F
-P 7600 3650
-F 0 "U?" H 7750 3650 60  0000 C CNN
-F 1 "ZXCT1009" H 7600 3350 60  0000 C CNN
-	1    7600 3650
+P 4300 1250
+F 0 "U?" H 4450 1250 60  0000 C CNN
+F 1 "ZXCT1009" H 4300 950 60  0000 C CNN
+	1    4300 1250
 	1    0    0    -1  
 $EndComp
-Text Label 6650 5100 0    60   ~ 0
-I_sense_M1
-Text Label 7950 3150 0    60   ~ 0
+Text Label 4650 750  0    60   ~ 0
 GMDMTR
 $Comp
 L GND #PWR?
 U 1 1 4F8D4182
-P 7100 3200
-F 0 "#PWR?" H 7100 3200 30  0001 C CNN
-F 1 "GND" H 7100 3130 30  0001 C CNN
-	1    7100 3200
+P 3800 800
+F 0 "#PWR?" H 3800 800 30  0001 C CNN
+F 1 "GND" H 3800 730 30  0001 C CNN
+	1    3800 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L INDUCTOR L?
 U 1 1 4F8D4176
-P 7500 3150
-F 0 "L?" V 7450 3150 40  0000 C CNN
-F 1 "1mH" V 7600 3150 40  0000 C CNN
-	1    7500 3150
+P 4200 750
+F 0 "L?" V 4150 750 40  0000 C CNN
+F 1 "1mH" V 4300 750 40  0000 C CNN
+	1    4200 750 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4F8D4164
-P 5400 5850
-F 0 "#PWR?" H 5400 5850 30  0001 C CNN
-F 1 "GND" H 5400 5780 30  0001 C CNN
-	1    5400 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4F8D4150
-P 5400 4550
-F 0 "#PWR?" H 5400 4550 30  0001 C CNN
-F 1 "GND" H 5400 4480 30  0001 C CNN
-	1    5400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4F8D3F63
-P 3100 2350
-F 0 "#PWR?" H 3100 2350 30  0001 C CNN
-F 1 "GND" H 3100 2280 30  0001 C CNN
-	1    3100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4F8D3F5F
-P 3100 3250
-F 0 "#PWR?" H 3100 3250 30  0001 C CNN
-F 1 "GND" H 3100 3180 30  0001 C CNN
-	1    3100 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4F8D3F17
-P 4350 6150
-F 0 "#PWR?" H 4350 6150 30  0001 C CNN
-F 1 "GND" H 4350 6080 30  0001 C CNN
-	1    4350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3EF0
-P 4350 5650
-F 0 "R?" V 4430 5650 50  0000 C CNN
-F 1 "100k" V 4350 5650 50  0000 C CNN
-	1    4350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3ED4
-P 4200 5650
-F 0 "R?" V 4280 5650 50  0000 C CNN
-F 1 "100k" V 4200 5650 50  0000 C CNN
-	1    4200 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3EC7
-P 4650 5300
-F 0 "R?" V 4730 5300 50  0000 C CNN
-F 1 "10" V 4650 5300 50  0000 C CNN
-	1    4650 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3E77
-P 4650 5000
-F 0 "R?" V 4730 5000 50  0000 C CNN
-F 1 "10" V 4650 5000 50  0000 C CNN
-	1    4650 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3CE0
-P 6850 4500
-F 0 "R?" V 6930 4500 50  0000 C CNN
-F 1 "2.2k" V 6850 4500 50  0000 C CNN
-	1    6850 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3CB2
-P 6550 4750
-F 0 "R?" V 6630 4750 50  0000 C CNN
-F 1 "10" V 6550 4750 50  0000 C CNN
-	1    6550 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3C80
-P 6850 5800
-F 0 "R?" V 6930 5800 50  0000 C CNN
-F 1 "2.2k" V 6850 5800 50  0000 C CNN
-	1    6850 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8D3C6C
-P 6550 5550
-F 0 "R?" V 6630 5550 50  0000 C CNN
-F 1 "10" V 6550 5550 50  0000 C CNN
-	1    6550 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_N_OPENDOUS Q?
-U 1 1 4F8D3C23
-P 5700 4400
-F 0 "Q?" H 5700 4590 30  0000 R CNN
-F 1 "BS170F" H 5700 4220 30  0000 R CNN
-F 2 "BS170F" H 5700 4400 60  0001 C CNN
-	1    5700 4400
-	0    1    1    0   
-$EndComp
-Text Label 5400 6100 2    60   ~ 0
-PWM_C2M1
-$Comp
-L MOSFET_N_OPENDOUS Q3
-U 1 1 4E8758ED
-P 5700 5900
-F 0 "Q3" H 5700 6090 30  0000 R CNN
-F 1 "BS170F" H 5700 5720 30  0000 R CNN
-F 2 "BS170F" H 5700 5900 60  0001 C CNN
-	1    5700 5900
-	0    1    -1   0   
-$EndComp
-$Comp
-L SN74CBT1G125 U?
-U 1 1 4F8D3A0D
-P 4300 3000
-F 0 "U?" H 4300 3000 60  0000 C CNN
-F 1 "SN74CBT1G125" H 4300 3100 60  0000 C CNN
-F 2 "-SOT23-5L" H 4300 2900 60  0000 C CNN
-	1    4300 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SN74CBT1G125 U?
-U 1 1 4F8D3A03
-P 4300 2100
-F 0 "U?" H 4300 2100 60  0000 C CNN
-F 1 "SN74CBT1G125" H 4300 2200 60  0000 C CNN
-F 2 "-SOT23-5L" H 4300 2000 60  0000 C CNN
-	1    4300 2100
-	1    0    0    -1  
-$EndComp
-Text Label 5650 3900 0    60   ~ 0
-GMTR
-$Comp
-L C C?
-U 1 1 4F8D3882
-P 5650 3350
-F 0 "C?" H 5700 3450 50  0000 L CNN
-F 1 "1nF" H 5700 3250 50  0000 L CNN
-	1    5650 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR?
-U 1 1 4F8D3831
-P 5200 2600
-F 0 "#PWR?" H 5200 2700 30  0001 C CNN
-F 1 "3V3" H 5200 2710 30  0000 C CNN
-	1    5200 2600
-	1    0    0    -1  
-$EndComp
-Text Label 3100 2850 2    60   ~ 0
-SMPL_M12
-Text Label 3100 3000 2    60   ~ 0
-EMF_M12
-$Comp
-L 3V3 #PWR?
-U 1 1 4F8D36CB
-P 5200 1700
-F 0 "#PWR?" H 5200 1800 30  0001 C CNN
-F 1 "3V3" H 5200 1810 30  0000 C CNN
-	1    5200 1700
-	1    0    0    -1  
 $EndComp
 $Comp
 L VDD5V #PWR?
@@ -917,64 +599,6 @@ F 1 "VDD5V" H 6700 1100 30  0000 C CNN
 	1    6700 1000
 	1    0    0    -1  
 $EndComp
-Text Label 5650 2250 0    60   ~ 0
-EMF_M1
-Text Label 3100 1950 2    60   ~ 0
-SMPL_M11
-Text Label 3100 2100 2    60   ~ 0
-EMF_M11
-Text Label 3200 4850 0    60   ~ 0
-EMF_M12
-Text Label 2550 4850 0    60   ~ 0
-EMF_M11
-Text Label 3200 5700 0    60   ~ 0
-GMTR
-Text Label 3200 4200 0    60   ~ 0
-M12
-$Comp
-L R R?
-U 1 1 4F8644AD
-P 3200 5150
-F 0 "R?" V 3280 5150 50  0000 C CNN
-F 1 "20k" V 3200 5150 50  0000 C CNN
-	1    3200 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8644AC
-P 3200 4550
-F 0 "R?" V 3280 4550 50  0000 C CNN
-F 1 "10k" V 3200 4550 50  0000 C CNN
-	1    3200 4550
-	1    0    0    -1  
-$EndComp
-Text Label 2550 5700 0    60   ~ 0
-GMTR
-Text Label 2550 4200 0    60   ~ 0
-M11
-$Comp
-L R R?
-U 1 1 4F86446D
-P 2550 5150
-F 0 "R?" V 2630 5150 50  0000 C CNN
-F 1 "20k" V 2550 5150 50  0000 C CNN
-	1    2550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F864463
-P 2550 4550
-F 0 "R?" V 2630 4550 50  0000 C CNN
-F 1 "10k" V 2550 4550 50  0000 C CNN
-	1    2550 4550
-	1    0    0    -1  
-$EndComp
-Text Label 4100 5300 2    60   ~ 0
-C1M1
-Text Label 4100 5000 2    60   ~ 0
-C2M1
 Text Notes 1400 9200 0    60   ~ 0
 C19, C21 2.2uF para cortex M4\nC19. C21 = Ohms para cortex M3
 $Comp
@@ -1063,9 +687,9 @@ Text Label 4000 8650 0    60   ~ 0
 GND
 Text Label 4000 8550 0    60   ~ 0
 GND
-Text Label 1350 3850 0    60   ~ 0
+Text Label 750  4200 0    60   ~ 0
 C2M4
-Text Label 1350 3550 0    60   ~ 0
+Text Label 750  3900 0    60   ~ 0
 C1M4
 Text Label -4500 6450 0    60   ~ 0
 C1M1
@@ -1108,18 +732,18 @@ F 1 "3V3" H 2050 6960 30  0000 C CNN
 	1    2050 6850
 	1    0    0    -1  
 $EndComp
-Text Label 9500 6200 0    60   ~ 0
+Text Label 9550 5800 0    60   ~ 0
 GMTR
-Text Label 8300 6200 0    60   ~ 0
+Text Label 8350 5800 0    60   ~ 0
 VMTR
 $Comp
 L CONN_5X2 P6
 U 1 1 4F352742
-P 9050 6200
-F 0 "P6" H 9050 6500 60  0000 C CNN
-F 1 "CONN_5X2" V 9050 6200 50  0000 C CNN
-F 2 "PIN_ARRAY_5x2" H 9050 6200 60  0001 C CNN
-	1    9050 6200
+P 9100 5800
+F 0 "P6" H 9100 6100 60  0000 C CNN
+F 1 "CONN_5X2" V 9100 5800 50  0000 C CNN
+F 2 "PIN_ARRAY_5x2" H 9100 5800 60  0001 C CNN
+	1    9100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1145,72 +769,72 @@ $EndComp
 $Comp
 L ZXMHC3F381N8 U15
 U 1 1 4E8DA297
-P 10350 8050
-F 0 "U15" H 10650 8150 60  0000 C CNN
-F 1 "ZXMHC3F381N8" H 10300 8750 60  0000 C CNN
-F 2 "-SO8" H 10350 8050 60  0001 C CNN
-	1    10350 8050
+P 10350 7650
+F 0 "U15" H 10650 7750 60  0000 C CNN
+F 1 "ZXMHC3F381N8" H 10300 8350 60  0000 C CNN
+F 2 "-SO8" H 10350 7650 60  0001 C CNN
+	1    10350 7650
 	1    0    0    -1  
 $EndComp
-Text Label 11050 7600 0    60   ~ 0
+Text Label 11050 7200 0    60   ~ 0
 VMTR
-Text Label 9150 7700 0    60   ~ 0
+Text Label 9150 7300 0    60   ~ 0
 GMTR
-Text Label 9150 7600 0    60   ~ 0
+Text Label 9150 7200 0    60   ~ 0
 M41
-Text Label 11050 7700 0    60   ~ 0
+Text Label 11050 7300 0    60   ~ 0
 M42
 $Comp
 L MOSFET_N_OPENDOUS Q8
 U 1 1 4E8DA296
-P 10300 7000
-F 0 "Q8" H 10300 7190 30  0000 R CNN
-F 1 "BS170F" H 10300 6820 30  0000 R CNN
-F 2 "BS170F" H 10300 7000 60  0001 C CNN
-	1    10300 7000
+P 10300 6600
+F 0 "Q8" H 10300 6790 30  0000 R CNN
+F 1 "BS170F" H 10300 6420 30  0000 R CNN
+F 2 "BS170F" H 10300 6600 60  0001 C CNN
+	1    10300 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L R R44
 U 1 1 4E8DA295
-P 11400 7350
-F 0 "R44" V 11480 7350 50  0000 C CNN
-F 1 "2.2k" V 11400 7350 50  0000 C CNN
-F 2 "SM0603" H 11400 7350 60  0001 C CNN
-	1    11400 7350
+P 11400 6950
+F 0 "R44" V 11480 6950 50  0000 C CNN
+F 1 "2.2k" V 11400 6950 50  0000 C CNN
+F 2 "SM0603" H 11400 6950 60  0001 C CNN
+	1    11400 6950
 	-1   0    0    1   
 $EndComp
-Text Label 9750 7100 0    60   ~ 0
+Text Label 9750 6700 0    60   ~ 0
 GMTR
-Text Label 9750 8100 0    60   ~ 0
+Text Label 9750 7700 0    60   ~ 0
 GMTR
 $Comp
 L R R45
 U 1 1 4E8DA294
-P 11400 7850
-F 0 "R45" V 11480 7850 50  0000 C CNN
-F 1 "2.2k" V 11400 7850 50  0000 C CNN
-F 2 "SM0603" H 11400 7850 60  0001 C CNN
-	1    11400 7850
+P 11400 7450
+F 0 "R45" V 11480 7450 50  0000 C CNN
+F 1 "2.2k" V 11400 7450 50  0000 C CNN
+F 2 "SM0603" H 11400 7450 60  0001 C CNN
+	1    11400 7450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L MOSFET_N_OPENDOUS Q9
 U 1 1 4E8DA293
-P 10300 8200
-F 0 "Q9" H 10300 8390 30  0000 R CNN
-F 1 "BS170F" H 10300 8020 30  0000 R CNN
-F 2 "BS170F" H 10300 8200 60  0001 C CNN
-	1    10300 8200
+P 10300 7800
+F 0 "Q9" H 10300 7990 30  0000 R CNN
+F 1 "BS170F" H 10300 7620 30  0000 R CNN
+F 2 "BS170F" H 10300 7800 60  0001 C CNN
+	1    10300 7800
 	0    1    -1   0   
 $EndComp
-Text Label 9650 8400 0    60   ~ 0
+Text Label 9650 8000 0    60   ~ 0
 C2M4
-Text Label 9700 6800 0    60   ~ 0
+Text Label 9700 6400 0    60   ~ 0
 C1M4
-Text Label 8300 6100 0    60   ~ 0
+Text Label 8350 5700 0    60   ~ 0
 M41
-Text Label 9500 6100 0    60   ~ 0
+Text Label 9550 5700 0    60   ~ 0
 M42
 Text Label 1400 7450 0    60   ~ 0
 I2C1_SDA
@@ -1257,168 +881,82 @@ Text Label 3200 8000 0    60   ~ 0
 GND
 Text Label 1650 8000 0    60   ~ 0
 GND
-Text Label 9500 6000 0    60   ~ 0
+Text Label 9550 5600 0    60   ~ 0
 M32
-Text Label 8300 6000 0    60   ~ 0
+Text Label 8350 5600 0    60   ~ 0
 M31
-Text Label 9500 6400 0    60   ~ 0
+Text Label 9550 6000 0    60   ~ 0
 M22
-Text Label 8300 6400 0    60   ~ 0
+Text Label 8350 6000 0    60   ~ 0
 M21
-Text Label 9500 6300 0    60   ~ 0
+Text Label 9550 5900 0    60   ~ 0
 M12
-Text Label 8300 6300 0    60   ~ 0
+Text Label 8350 5900 0    60   ~ 0
 M11
-Text Label 7050 6800 0    60   ~ 0
+Text Label 7050 6400 0    60   ~ 0
 C1M3
-Text Label 7000 8400 0    60   ~ 0
+Text Label 7000 8000 0    60   ~ 0
 C2M3
-Text Label 9650 5600 0    60   ~ 0
-C2M2
-Text Label 9650 4000 0    60   ~ 0
-C1M2
-Text Label 5400 4200 2    60   ~ 0
-PWM_C1M1
 $Comp
 L MOSFET_N_OPENDOUS Q7
 U 1 1 4E876537
-P 7650 8200
-F 0 "Q7" H 7650 8390 30  0000 R CNN
-F 1 "BS170F" H 7650 8020 30  0000 R CNN
-F 2 "BS170F" H 7650 8200 60  0001 C CNN
-	1    7650 8200
+P 7650 7800
+F 0 "Q7" H 7650 7990 30  0000 R CNN
+F 1 "BS170F" H 7650 7620 30  0000 R CNN
+F 2 "BS170F" H 7650 7800 60  0001 C CNN
+	1    7650 7800
 	0    1    -1   0   
 $EndComp
 $Comp
 L R R41
 U 1 1 4E876536
-P 8750 7850
-F 0 "R41" V 8830 7850 50  0000 C CNN
-F 1 "2.2k" V 8750 7850 50  0000 C CNN
-F 2 "SM0603" H 8750 7850 60  0001 C CNN
-	1    8750 7850
+P 8750 7450
+F 0 "R41" V 8830 7450 50  0000 C CNN
+F 1 "2.2k" V 8750 7450 50  0000 C CNN
+F 2 "SM0603" H 8750 7450 60  0001 C CNN
+	1    8750 7450
 	-1   0    0    -1  
 $EndComp
-Text Label 7100 8100 0    60   ~ 0
+Text Label 7100 7700 0    60   ~ 0
 GMTR
-Text Label 7100 7100 0    60   ~ 0
+Text Label 7100 6700 0    60   ~ 0
 GMTR
 $Comp
 L R R40
 U 1 1 4E876535
-P 8750 7350
-F 0 "R40" V 8830 7350 50  0000 C CNN
-F 1 "2.2k" V 8750 7350 50  0000 C CNN
-F 2 "SM0603" H 8750 7350 60  0001 C CNN
-	1    8750 7350
+P 8750 6950
+F 0 "R40" V 8830 6950 50  0000 C CNN
+F 1 "2.2k" V 8750 6950 50  0000 C CNN
+F 2 "SM0603" H 8750 6950 60  0001 C CNN
+	1    8750 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L MOSFET_N_OPENDOUS Q6
 U 1 1 4E876534
-P 7650 7000
-F 0 "Q6" H 7650 7190 30  0000 R CNN
-F 1 "BS170F" H 7650 6820 30  0000 R CNN
-F 2 "BS170F" H 7650 7000 60  0001 C CNN
-	1    7650 7000
+P 7650 6600
+F 0 "Q6" H 7650 6790 30  0000 R CNN
+F 1 "BS170F" H 7650 6420 30  0000 R CNN
+F 2 "BS170F" H 7650 6600 60  0001 C CNN
+	1    7650 6600
 	0    1    1    0   
 $EndComp
-Text Label 8400 7700 0    60   ~ 0
+Text Label 8400 7300 0    60   ~ 0
 M32
-Text Label 6500 7600 0    60   ~ 0
+Text Label 6500 7200 0    60   ~ 0
 M31
-Text Label 6500 7700 0    60   ~ 0
+Text Label 6500 7300 0    60   ~ 0
 GMTR
-Text Label 8400 7600 0    60   ~ 0
+Text Label 8400 7200 0    60   ~ 0
 VMTR
 $Comp
 L ZXMHC3F381N8 U14
 U 1 1 4E876533
-P 7700 8050
-F 0 "U14" H 7950 8150 60  0000 C CNN
-F 1 "ZXMHC3F381N8" H 7650 8750 60  0000 C CNN
-F 2 "-SO8" H 7700 8050 60  0001 C CNN
-	1    7700 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZXMHC3F381N8 U13
-U 1 1 4E8763E8
-P 10350 5250
-F 0 "U13" H 10650 5350 60  0000 C CNN
-F 1 "ZXMHC3F381N8" H 10300 5950 60  0000 C CNN
-F 2 "-SO8" H 10350 5250 60  0001 C CNN
-	1    10350 5250
-	1    0    0    -1  
-$EndComp
-Text Label 11050 4800 0    60   ~ 0
-VMTR
-Text Label 9150 4900 0    60   ~ 0
-GMTR
-Text Label 9150 4800 0    60   ~ 0
-M21
-Text Label 11050 4900 0    60   ~ 0
-M22
-$Comp
-L MOSFET_N_OPENDOUS Q4
-U 1 1 4E8763E7
-P 10300 4200
-F 0 "Q4" H 10300 4390 30  0000 R CNN
-F 1 "BS170F" H 10300 4020 30  0000 R CNN
-F 2 "BS170F" H 10300 4200 60  0001 C CNN
-	1    10300 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R38
-U 1 1 4E8763E6
-P 11400 4550
-F 0 "R38" V 11480 4550 50  0000 C CNN
-F 1 "2.2k" V 11400 4550 50  0000 C CNN
-F 2 "SM0603" H 11400 4550 60  0001 C CNN
-	1    11400 4550
-	-1   0    0    1   
-$EndComp
-Text Label 9750 4300 0    60   ~ 0
-GMTR
-Text Label 9750 5300 0    60   ~ 0
-GMTR
-$Comp
-L R R39
-U 1 1 4E8763E5
-P 11400 5050
-F 0 "R39" V 11480 5050 50  0000 C CNN
-F 1 "2.2k" V 11400 5050 50  0000 C CNN
-F 2 "SM0603" H 11400 5050 60  0001 C CNN
-	1    11400 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MOSFET_N_OPENDOUS Q5
-U 1 1 4E8763E4
-P 10300 5400
-F 0 "Q5" H 10300 5590 30  0000 R CNN
-F 1 "BS170F" H 10300 5220 30  0000 R CNN
-F 2 "BS170F" H 10300 5400 60  0001 C CNN
-	1    10300 5400
-	0    1    -1   0   
-$EndComp
-Text Label 6650 5200 0    60   ~ 0
-M12
-Text Label 4900 5100 2    60   ~ 0
-M11
-Text Label 4900 5200 2    60   ~ 0
-GMTR
-Text Label 7100 4600 0    60   ~ 0
-VMTR
-$Comp
-L ZXMHC3F381N8 U12
-U 1 1 4E85F567
-P 5750 5550
-F 0 "U12" H 6000 5650 60  0000 C CNN
-F 1 "ZXMHC3F381N8" H 5700 6250 60  0000 C CNN
-F 2 "-SO8" H 5750 5550 60  0001 C CNN
-	1    5750 5550
+P 7700 7650
+F 0 "U14" H 7950 7750 60  0000 C CNN
+F 1 "ZXMHC3F381N8" H 7650 8350 60  0000 C CNN
+F 2 "-SO8" H 7700 7650 60  0001 C CNN
+	1    7700 7650
 	1    0    0    -1  
 $EndComp
 Text Label 5550 7850 0    60   ~ 0
@@ -1599,11 +1137,11 @@ F 2 "SM0603" H 7750 1350 60  0001 C CNN
 	1    7750 1350
 	1    0    0    -1  
 $EndComp
-Text Label 1450 2700 0    60   ~ 0
+Text Label 850  3050 0    60   ~ 0
 FP42
-Text Label 1450 2600 0    60   ~ 0
+Text Label 850  2950 0    60   ~ 0
 FP41
-Text Label 1350 3450 0    60   ~ 0
+Text Label 750  3800 0    60   ~ 0
 FP36
 $Comp
 L R R27
@@ -1785,13 +1323,13 @@ Text Label -5600 5150 0    60   ~ 0
 FP34
 Text Label -750 6150 0    60   ~ 0
 FP35
-Text Label 1450 3200 0    60   ~ 0
+Text Label 850  3550 0    60   ~ 0
 FP19
-Text Label 1450 3100 0    60   ~ 0
+Text Label 850  3450 0    60   ~ 0
 FP18
-Text Label 1450 3000 0    60   ~ 0
+Text Label 850  3350 0    60   ~ 0
 FP17
-Text Label 1450 2900 0    60   ~ 0
+Text Label 850  3250 0    60   ~ 0
 FP16
 Text Label -5600 6050 0    60   ~ 0
 FP15
