@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = jue 19 abr 2012 15:18:13 COT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = jue 19 abr 2012 22:03:33 COT
 
 BeginCmp
 TimeStamp = /4D30AC69/4D42D643;
@@ -785,10 +785,10 @@ IdModule  = MHOLE;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E78AF25/4F9072D9;
+TimeStamp = /4E78AF25/4F90D195;
 Reference = P8;
-ValeurCmp = CONN_10X2;
-IdModule  = PIN_ARRAY_10X2;
+ValeurCmp = CONN_12X2;
+IdModule  = pin_array_12x2;
 EndCmp
 
 BeginCmp
