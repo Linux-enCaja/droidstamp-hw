@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 19 Apr 2012 07:33:46 PM EDT
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 10:29:31 PM EDT
 LIBS:../components/con-jack,../components/zxct1009,../components/adm3101e,../components/microsd,../components/transistor-npn,../components/ipc-7351-transistor,../components/switch-misc,power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,../components/micron_ddr_512Mb,../components/iMX23,../components/sdmmc,../components/usbconn,../components/fsusb20,../components/r_pack2,../components/pasives-connectors,../components/EEPROM,../components/PWR,../components/m25p32,../components/PROpendous-cache,../components/w_analog,../components/gl850g,../components/srf2012,../components/rclamp0502b,../components/mcp130,../components/ABM8G,../components/usb_a,../components/Reset,../components/stm32f100vxx,../components/lt1117cst,../components/zxmhc3f381n8,../components/stm32f4_lqfp100,./i.mx233stamp.cache
 EELAYER 24  0
 EELAYER END
@@ -13,28 +13,38 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7150 3250 7150 3200
+Wire Wire Line
+	7150 3200 7250 3200
+Wire Wire Line
+	7850 3200 8000 3200
+Text Label 8000 3200 0    60   ~ 0
+GMDMTR
+$Comp
+L GND #PWR?
+U 1 1 4F90C955
+P 7150 3250
+F 0 "#PWR?" H 7150 3250 30  0001 C CNN
+F 1 "GND" H 7150 3180 30  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4F90C954
+P 7550 3200
+F 0 "L?" V 7500 3200 40  0000 C CNN
+F 1 "1mH" V 7650 3200 40  0000 C CNN
+	1    7550 3200
+	0    -1   -1   0   
+$EndComp
 $Sheet
 S 6900 3700 4550 1500
 U 4F909BDC
 F0 "feedback_drivers" 60
 F1 "motors_feedback_drivers.sch" 60
 $EndSheet
-Text Label 2950 1150 0    60   ~ 0
-M1_torque_sense
-Wire Wire Line
-	2950 1150 2950 1300
-Wire Wire Line
-	2950 1700 3550 1700
-Wire Wire Line
-	3650 1250 3450 1250
-Wire Wire Line
-	5200 1700 5200 1450
-Wire Wire Line
-	5200 1450 4950 1450
-Wire Wire Line
-	3800 800  3800 750 
-Wire Wire Line
-	3800 750  3900 750 
 Wire Wire Line
 	-2500 7050 -2500 7000
 Connection ~ -2900 7100
@@ -506,90 +516,6 @@ Wire Wire Line
 	-400 2200 -400 1700
 Wire Wire Line
 	-400 1700 0    1700
-Wire Wire Line
-	4500 750  4650 750 
-Wire Wire Line
-	5400 1050 4950 1050
-Wire Wire Line
-	3550 1700 3550 1800
-$Comp
-L GND #PWR?
-U 1 1 4F8E14C8
-P 3550 1800
-F 0 "#PWR?" H 3550 1800 30  0001 C CNN
-F 1 "GND" H 3550 1730 30  0001 C CNN
-	1    3550 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 4F8E14B7
-P 2950 1500
-F 0 "C?" H 3000 1600 50  0000 L CNN
-F 1 "0.1uF" H 3000 1400 50  0000 L CNN
-	1    2950 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8E13BA
-P 3550 1500
-F 0 "R?" V 3630 1500 50  0000 C CNN
-F 1 "5k1" V 3550 1500 50  0000 C CNN
-	1    3550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F8E13B5
-P 3200 1250
-F 0 "R?" V 3280 1250 50  0000 C CNN
-F 1 "1k" V 3200 1250 50  0000 C CNN
-	1    3200 1250
-	0    1    1    0   
-$EndComp
-Text Label 5200 1700 0    60   ~ 0
-I_sense_M1
-Text Label 5400 1050 0    60   ~ 0
-VMTR
-$Comp
-L R R?
-U 1 1 4F8E135A
-P 5200 1300
-F 0 "R?" V 5280 1300 50  0000 C CNN
-F 1 "0.05" V 5200 1300 50  0000 C CNN
-	1    5200 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZXCT1009 U?
-U 1 1 4F8E133F
-P 4300 1250
-F 0 "U?" H 4450 1250 60  0000 C CNN
-F 1 "ZXCT1009" H 4300 950 60  0000 C CNN
-	1    4300 1250
-	1    0    0    -1  
-$EndComp
-Text Label 4650 750  0    60   ~ 0
-GMDMTR
-$Comp
-L GND #PWR?
-U 1 1 4F8D4182
-P 3800 800
-F 0 "#PWR?" H 3800 800 30  0001 C CNN
-F 1 "GND" H 3800 730 30  0001 C CNN
-	1    3800 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L INDUCTOR L?
-U 1 1 4F8D4176
-P 4200 750
-F 0 "L?" V 4150 750 40  0000 C CNN
-F 1 "1mH" V 4300 750 40  0000 C CNN
-	1    4200 750 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L VDD5V #PWR?
 U 1 1 4F8D365D
