@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date jue 19 abr 2012 22:22:20 COT
+EESchema Schematic File Version 2  date vie 20 abr 2012 12:34:33 COT
 LIBS:con-jack
 LIBS:zxct1009
 LIBS:adm3101e

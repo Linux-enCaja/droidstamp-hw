@@ -7,4 +7,5 @@ rm *jpg
 rm *bak
 rm *savepcb*
 rm *~
+rm *.000
  
