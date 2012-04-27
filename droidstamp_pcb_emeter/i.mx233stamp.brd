@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 1 date vie 20 abr 2012 12:33:54 COT
+PCBNEW-BOARD Version 1 date Fri 27 Apr 2012 12:11:20 PM COT
 
-# Created by Pcbnew(2011-05-25)-stable
+# Created by Pcbnew(2011-05-31)-stable
 
 $GENERAL
 encoding utf-8
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "20 apr 2012"
+Date "27 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -63,14 +63,14 @@ MicroViaMinSize 197
 MicroViaMinDrill 79
 TextPcbWidth 120
 TextPcbSize 600 800
-EdgeModWidth 157
+EdgeModWidth 150
 TextModSize 600 600
-TextModWidth 79
-PadSize 314 314
-PadDrill 0
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 33255 34063
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 16547841) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory droidstamp_gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -8569,7 +8569,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
 $MODULE TQFP_100
-Po 41338 42519 0 15 4F8F9B92 4F78C336 ~~
+Po 41338 42519 0 15 4F9AD337 4F78C336 ~~
 Li TQFP_100
 Cd Module SMD TQFP 100 Pins
 Kw CMS TQFP
@@ -8578,7 +8578,7 @@ AR /4E78AF25/4F78CA64
 Op 0 0 0
 At SMD 
 T0 -39 -826 600 400 0 80 N V 21 N "U9"
-T1 0 1000 600 400 0 80 N V 21 N "STM32F4_LQFP100"
+T1 0 1000 472 354 0 80 N V 21 N "STM32F4_LQFP100"
 DC 2400 -2550 2400 -2750 80 21
 DS 2750 -2500 2500 -2750 80 21
 DS -2750 -2650 -2650 -2750 80 21
@@ -10025,7 +10025,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0603
 $MODULE pin_array_12x2
-Po 35276 41890 2700 15 4F9194A2 4F8F944E ~~
+Po 35276 41890 2700 15 4F9AD2EB 4F8F944E ~~
 Li pin_array_12x2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -10033,7 +10033,7 @@ Sc 4F8F944E
 AR /4E78AF25/4E831B93
 Op 0 0 0
 T0 0 -2116 400 400 2700 100 N V 21 N "P9"
-T1 0 1500 400 400 2700 80 N V 21 N "CONN_12X2"
+T1 0 1500 400 400 2700 80 N I 21 N "CONN_12X2"
 DS -6000 -1000 -6000 1000 150 21
 DS -6000 1000 6000 1000 150 21
 DS 6000 1000 6000 -1000 150 21
@@ -10258,7 +10258,7 @@ Po 0 -669
 $EndPAD
 $EndMODULE  ABM8G
 $MODULE pin_array_13x2
-Po 40827 50354 0 15 4F919D57 4F90556F ~~
+Po 40827 50354 0 15 4F9AD301 4F90556F ~~
 Li pin_array_13x2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -10266,7 +10266,7 @@ Sc 4F90556F
 AR /4E78AF25/4F9054FB
 Op 0 0 0
 T0 -3000 -1500 400 400 0 80 N V 21 N "P6"
-T1 364 -2008 400 400 0 80 N V 21 N "CONN_13X2"
+T1 364 -2008 400 400 0 80 N I 21 N "CONN_13X2"
 DS -6500 1000 6500 1000 80 21
 DS 6500 -1000 -6500 -1000 80 21
 DS -6500 -1000 -6500 1000 80 21
@@ -10461,7 +10461,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  pin_array_13x2
 $MODULE pin_array_12x2
-Po 42008 34803 1800 15 4F9196C9 4F90D220 ~~
+Po 42008 34803 1800 15 4F9AD2FD 4F90D220 ~~
 Li pin_array_12x2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -10469,7 +10469,7 @@ Sc 4F90D220
 AR /4E78AF25/4F90D195
 Op 0 0 0
 T0 6477 1151 400 400 1800 100 N V 21 N "P8"
-T1 0 1500 400 400 1800 80 N V 21 N "CONN_12X2"
+T1 0 1500 400 400 1800 80 N I 21 N "CONN_12X2"
 DS -6000 -1000 -6000 1000 150 21
 DS -6000 1000 6000 1000 150 21
 DS 6000 1000 6000 -1000 150 21
