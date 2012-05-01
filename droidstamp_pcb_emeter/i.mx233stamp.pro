@@ -1,8 +1,6 @@
-update=jue 19 abr 2012 07:04:35 COT
+update=lun 30 abr 2012 19:59:44 COT
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -151,3 +149,5 @@ LibName27=LT1117
 LibName28=ABM3B
 LibName29=BS170F
 LibName30=PIN_ARRAY_10X2
+[general]
+version=1
