@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 PCBNEW-BOARD Version 1 date lun 30 abr 2012 19:58:49 COT
+=======
+PCBNEW-BOARD Version 1 date Fri 27 Apr 2012 12:11:20 PM COT
+>>>>>>> 0ca816495cb1cfff878d2945babacec53dd6468a
 
-# Created by Pcbnew(2011-05-25)-stable
+# Created by Pcbnew(2011-05-31)-stable
 
 $GENERAL
 encoding utf-8
@@ -21,7 +25,11 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
+<<<<<<< HEAD
 Date "1 may 2012"
+=======
+Date "27 apr 2012"
+>>>>>>> 0ca816495cb1cfff878d2945babacec53dd6468a
 Rev ""
 Comp ""
 Comment1 ""
@@ -63,14 +71,20 @@ MicroViaMinSize 197
 MicroViaMinDrill 79
 TextPcbWidth 120
 TextPcbSize 600 800
-EdgeModWidth 157
+EdgeModWidth 150
 TextModSize 600 600
+<<<<<<< HEAD
 TextModWidth 79
 PadSize 600 600
 PadDrill 394
+=======
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+>>>>>>> 0ca816495cb1cfff878d2945babacec53dd6468a
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 33255 34063
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 16547841) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory droidstamp_gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -8947,7 +8961,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
 $MODULE TQFP_100
-Po 41338 42519 0 15 4F8F9B92 4F78C336 ~~
+Po 41338 42519 0 15 4F9AD337 4F78C336 ~~
 Li TQFP_100
 Cd Module SMD TQFP 100 Pins
 Kw CMS TQFP
@@ -8956,7 +8970,7 @@ AR /4E78AF25/4F78CA64
 Op 0 0 0
 At SMD 
 T0 -39 -826 600 400 0 80 N V 21 N "U9"
-T1 0 1000 600 400 0 80 N V 21 N "STM32F4_LQFP100"
+T1 0 1000 472 354 0 80 N V 21 N "STM32F4_LQFP100"
 DC 2400 -2550 2400 -2750 80 21
 DS 2750 -2500 2500 -2750 80 21
 DS -2750 -2650 -2650 -2750 80 21
@@ -10381,6 +10395,198 @@ DS -450 250 450 250 50 20
 DS 450 250 450 -250 50 20
 DS 450 -250 -450 -250 50 20
 DS -450 -250 -450 250 50 20
+<<<<<<< HEAD
+=======
+$PAD
+Sh "1" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 235 "N-000228"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 197 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.080000 0.080000 0.080000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE pin_array_12x2
+Po 35276 41890 2700 15 4F9AD2EB 4F8F944E ~~
+Li pin_array_12x2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+Sc 4F8F944E
+AR /4E78AF25/4E831B93
+Op 0 0 0
+T0 0 -2116 400 400 2700 100 N V 21 N "P9"
+T1 0 1500 400 400 2700 80 N I 21 N "CONN_12X2"
+DS -6000 -1000 -6000 1000 150 21
+DS -6000 1000 6000 1000 150 21
+DS 6000 1000 6000 -1000 150 21
+DS 6000 -1000 -6000 -1000 150 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 41 "/STM32/FP14"
+Po -5500 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 40 "/STM32/FP13"
+Po -5500 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 43 "/STM32/FP16"
+Po -4500 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 42 "/STM32/FP15"
+Po -4500 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 35 "/STM32/DAC2"
+Po -3500 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 34 "/STM32/DAC1"
+Po -3500 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 46 "/STM32/FP20"
+Po -2500 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 44 "/STM32/FP19"
+Po -2500 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 48 "/STM32/FP22"
+Po -1500 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 47 "/STM32/FP21"
+Po -1500 -500
+$EndPAD
+$PAD
+Sh "11" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 50 "/STM32/FP24"
+Po -500 500
+$EndPAD
+$PAD
+Sh "12" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 49 "/STM32/FP23"
+Po -500 -500
+$EndPAD
+$PAD
+Sh "13" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 52 "/STM32/FP26"
+Po 500 500
+$EndPAD
+$PAD
+Sh "14" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 51 "/STM32/FP25"
+Po 500 -500
+$EndPAD
+$PAD
+Sh "15" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 54 "/STM32/FP28"
+Po 1500 500
+$EndPAD
+$PAD
+Sh "16" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 53 "/STM32/FP27"
+Po 1500 -500
+$EndPAD
+$PAD
+Sh "17" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 57 "/STM32/FP30"
+Po 2500 500
+$EndPAD
+$PAD
+Sh "18" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 55 "/STM32/FP29"
+Po 2500 -500
+$EndPAD
+$PAD
+Sh "19" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 59 "/STM32/FP32"
+Po 3500 500
+$EndPAD
+$PAD
+Sh "20" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 58 "/STM32/FP31"
+Po 3500 -500
+$EndPAD
+$PAD
+Sh "21" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 61 "/STM32/FP34"
+Po 4500 500
+$EndPAD
+$PAD
+Sh "22" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 60 "/STM32/FP33"
+Po 4500 -500
+$EndPAD
+>>>>>>> 0ca816495cb1cfff878d2945babacec53dd6468a
 $PAD
 Sh "1" R 250 450 0 0 1800
 Dr 0 0 0
@@ -10447,7 +10653,7 @@ Po 0 -669
 $EndPAD
 $EndMODULE  ABM8G
 $MODULE pin_array_13x2
-Po 40827 50354 0 15 4F919D57 4F90556F ~~
+Po 40827 50354 0 15 4F9AD301 4F90556F ~~
 Li pin_array_13x2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -10455,7 +10661,7 @@ Sc 4F90556F
 AR /4E78AF25/4F9054FB
 Op 0 0 0
 T0 -3000 -1500 400 400 0 80 N V 21 N "P6"
-T1 364 -2008 400 400 0 80 N V 21 N "CONN_13X2"
+T1 364 -2008 400 400 0 80 N I 21 N "CONN_13X2"
 DS -6500 1000 6500 1000 80 21
 DS 6500 -1000 -6500 -1000 80 21
 DS -6500 -1000 -6500 1000 80 21
@@ -10649,6 +10855,198 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  pin_array_13x2
+<<<<<<< HEAD
+=======
+$MODULE pin_array_12x2
+Po 42008 34803 1800 15 4F9AD2FD 4F90D220 ~~
+Li pin_array_12x2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+Sc 4F90D220
+AR /4E78AF25/4F90D195
+Op 0 0 0
+T0 6477 1151 400 400 1800 100 N V 21 N "P8"
+T1 0 1500 400 400 1800 80 N I 21 N "CONN_12X2"
+DS -6000 -1000 -6000 1000 150 21
+DS -6000 1000 6000 1000 150 21
+DS 6000 1000 6000 -1000 150 21
+DS 6000 -1000 -6000 -1000 150 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 197 "GND"
+Po -5500 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 196 "3V3"
+Po -5500 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 93 "/STM32/FP65"
+Po -4500 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 94 "/STM32/FP66"
+Po -4500 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 95 "/STM32/FP69"
+Po -3500 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 97 "/STM32/FP70"
+Po -3500 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 98 "/STM32/FP71"
+Po -2500 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 99 "/STM32/FP72"
+Po -2500 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 36 "/STM32/FP1"
+Po -1500 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 45 "/STM32/FP2"
+Po -1500 -500
+$EndPAD
+$PAD
+Sh "11" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 56 "/STM32/FP3"
+Po -500 500
+$EndPAD
+$PAD
+Sh "12" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 67 "/STM32/FP4"
+Po -500 -500
+$EndPAD
+$PAD
+Sh "13" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 78 "/STM32/FP5"
+Po 500 500
+$EndPAD
+$PAD
+Sh "14" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 89 "/STM32/FP6"
+Po 500 -500
+$EndPAD
+$PAD
+Sh "15" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 96 "/STM32/FP7"
+Po 1500 500
+$EndPAD
+$PAD
+Sh "16" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 100 "/STM32/FP8"
+Po 1500 -500
+$EndPAD
+$PAD
+Sh "17" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 101 "/STM32/FP9"
+Po 2500 500
+$EndPAD
+$PAD
+Sh "18" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 37 "/STM32/FP10"
+Po 2500 -500
+$EndPAD
+$PAD
+Sh "19" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 38 "/STM32/FP11"
+Po 3500 500
+$EndPAD
+$PAD
+Sh "20" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 39 "/STM32/FP12"
+Po 3500 -500
+$EndPAD
+$PAD
+Sh "21" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 197 "GND"
+Po 4500 500
+$EndPAD
+$PAD
+Sh "22" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 111 "/STM32/VREF"
+Po 4500 -500
+$EndPAD
+$PAD
+Sh "23" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 197 "GND"
+Po 5500 500
+$EndPAD
+$PAD
+Sh "24" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 197 "GND"
+Po 5500 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_12x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  pin_array_12x2
+>>>>>>> 0ca816495cb1cfff878d2945babacec53dd6468a
 $MODULE PIN_ARRAY_2X1
 Po 35285 48514 0 15 4565C520 4F918B07 ~~
 Li PIN_ARRAY_2X1
