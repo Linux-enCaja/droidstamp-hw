@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date mar 01 may 2012 10:02:59 COT
+PCBNEW-BOARD Version 1 date mar 01 may 2012 10:32:42 COT
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -9,8 +9,8 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 571
 NoConn 1
-Di 31803 29987 72005 57951
-Ndraw 181
+Di 27746 29987 72005 57951
+Ndraw 186
 Ntrack 2652
 Nzone 0
 BoardThickness 630
@@ -35,7 +35,7 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 551
+TrackWidth 59
 TrackWidthList 79
 TrackWidthList 114
 TrackWidthList 118
@@ -66,8 +66,8 @@ TextPcbSize 600 800
 EdgeModWidth 157
 TextModSize 600 600
 TextModWidth 79
-PadSize 600 600
-PadDrill 400
+PadSize 314 314
+PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 33255 34063
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
@@ -10719,6 +10719,35 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_2X1
+$COTATION
+Ge 0 28 0
+Va 1067
+Te "2,710 mm"
+Po 30239 35906 600 800 120 2705 1
+Sb 0 30875 35368 30883 36435 120
+Sd 0 36906 36390 29603 36444 120
+Sg 0 36898 35323 29595 35377 120
+S1 0 30883 36435 30649 35994 120
+S2 0 30883 36435 31110 35990 120
+S3 0 30875 35368 30648 35813 120
+S4 0 30875 35368 31109 35809 120
+$endCOTATION
+$DRAWSEGMENT
+Po 0 35815 35319 35815 36390 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 37433 35319 35815 35319 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 37433 36398 37433 35319 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 35756 36398 37433 36398 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
 $TEXTPCB
 Te "3V3"
 Po 48258 35256 157 157 39 900
