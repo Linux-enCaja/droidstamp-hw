@@ -1,4 +1,4 @@
-update=jue 19 abr 2012 07:04:35 COT
+update=Tue 26 Jun 2012 12:48:50 PM COT
 version=1
 last_client=pcbnew
 [general]
@@ -104,21 +104,21 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
+LastNetListRead=i.mx233stamp.net
 PadDrlX=0
-PadDimH=314
-PadDimV=314
+PadDimH=0
+PadDimV=0
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=79
-VEgarde=100
+VEgarde=39
 DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=157
-LastNetListRead=i.mx233stamp.net
 [pcbnew/libraries]
 LibDir=../modules
 LibName1=sockets
