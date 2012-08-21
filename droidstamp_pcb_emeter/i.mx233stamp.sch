@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date vie 20 abr 2012 12:34:33 COT
+EESchema Schematic File Version 2  date Tue 21 Aug 2012 09:23:05 AM COT
 LIBS:con-jack
 LIBS:zxct1009
 LIBS:adm3101e
@@ -66,7 +66,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "20 apr 2012"
+Date "21 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -75,73 +75,75 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3000 3650 3150 3650
+	3150 2900 2900 2900
 Wire Wire Line
-	2900 1850 3150 1850
-Wire Wire Line
-	2900 2700 3150 2700
-Wire Wire Line
-	3000 4150 3150 4150
-Wire Wire Line
-	2900 2450 3150 2450
-Wire Wire Line
-	2900 2350 3150 2350
-Wire Wire Line
-	2900 2150 3150 2150
-Wire Wire Line
-	3000 3950 3150 3950
-Wire Wire Line
-	3000 3750 3150 3750
-Wire Wire Line
-	3150 3450 3000 3450
-Wire Bus Line
-	4750 2500 5250 2500
-Wire Wire Line
-	5250 3350 4750 3350
-Wire Wire Line
-	4750 3100 5250 3100
-Wire Wire Line
-	4750 3950 5250 3950
-Wire Wire Line
-	4750 3700 5250 3700
-Wire Wire Line
-	4750 2650 5250 2650
-Wire Wire Line
-	4750 2750 5250 2750
-Wire Wire Line
-	4750 2850 5250 2850
-Wire Wire Line
-	4750 3600 5250 3600
-Wire Wire Line
-	4750 3800 5250 3800
-Wire Wire Line
-	4750 4050 5250 4050
-Wire Wire Line
-	4750 2950 5250 2950
-Wire Wire Line
-	5250 3200 4750 3200
-Wire Wire Line
-	4750 3450 5250 3450
-Wire Bus Line
-	5250 2400 4750 2400
-Wire Wire Line
-	3000 3550 3150 3550
-Wire Wire Line
-	3000 3850 3150 3850
-Wire Wire Line
-	3000 4050 3150 4050
-Wire Wire Line
-	2900 2050 3150 2050
-Wire Wire Line
-	2900 2250 3150 2250
-Wire Wire Line
-	2900 2550 3150 2550
-Wire Wire Line
-	3000 4250 3150 4250
+	2900 1950 3150 1950
 Wire Wire Line
 	3150 2800 2900 2800
 Wire Wire Line
-	2900 1950 3150 1950
+	3000 4250 3150 4250
+Wire Wire Line
+	2900 2550 3150 2550
+Wire Wire Line
+	2900 2250 3150 2250
+Wire Wire Line
+	2900 2050 3150 2050
+Wire Wire Line
+	3000 4050 3150 4050
+Wire Wire Line
+	3000 3850 3150 3850
+Wire Wire Line
+	3000 3550 3150 3550
+Wire Bus Line
+	5250 2400 4750 2400
+Wire Wire Line
+	4750 3450 5250 3450
+Wire Wire Line
+	5250 3200 4750 3200
+Wire Wire Line
+	4750 2950 5250 2950
+Wire Wire Line
+	4750 4050 5250 4050
+Wire Wire Line
+	4750 3800 5250 3800
+Wire Wire Line
+	4750 3600 5250 3600
+Wire Wire Line
+	4750 2850 5250 2850
+Wire Wire Line
+	4750 2750 5250 2750
+Wire Wire Line
+	4750 2650 5250 2650
+Wire Wire Line
+	4750 3700 5250 3700
+Wire Wire Line
+	4750 3950 5250 3950
+Wire Wire Line
+	4750 3100 5250 3100
+Wire Wire Line
+	5250 3350 4750 3350
+Wire Bus Line
+	4750 2500 5250 2500
+Wire Wire Line
+	3150 3450 3000 3450
+Wire Wire Line
+	3000 3750 3150 3750
+Wire Wire Line
+	3000 3950 3150 3950
+Wire Wire Line
+	2900 2150 3150 2150
+Wire Wire Line
+	2900 2350 3150 2350
+Wire Wire Line
+	2900 2450 3150 2450
+Wire Wire Line
+	3000 4150 3150 4150
+Wire Wire Line
+	2900 2700 3150 2700
+Wire Wire Line
+	2900 1850 3150 1850
+Wire Wire Line
+	3000 3650 3150 3650
 $Sheet
 S 3150 1600 1600 2950
 U 4D30AC69
@@ -181,6 +183,7 @@ F32 "AUART_TX" B L 3150 1950 60
 F33 "AUART_RX" B L 3150 1850 60 
 F34 "PWM2" B L 3150 2250 60 
 F35 "GPMI_D04" O L 3150 3650 60 
+F36 "BOOT_MODE" B L 3150 2900 60 
 $EndSheet
 $Sheet
 S 5250 1600 1150 2500
@@ -218,6 +221,7 @@ F8 "I2C1_SCL" B R 2900 2700 60
 F9 "I2C1_SDA" B R 2900 2800 60 
 F10 "STM_UART_TX" B R 2900 1850 60 
 F11 "STM_UART_RX" B R 2900 1950 60 
+F12 "BOOT_MODE" B R 2900 2900 60 
 $EndSheet
 $Sheet
 S 2150 3250 850  1100

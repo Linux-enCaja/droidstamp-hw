@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date vie 20 abr 2012 12:34:33 COT
+EESchema Schematic File Version 2  date Tue 21 Aug 2012 09:23:05 AM COT
 LIBS:con-jack
 LIBS:zxct1009
 LIBS:adm3101e
@@ -66,7 +66,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 5
 Title ""
-Date "20 apr 2012"
+Date "21 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -74,6 +74,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1950 6000 0    60   BiDi ~ 0
+BOOT_MODE
 NoConn ~ 13600 5100
 Wire Notes Line
 	8400 6300 8400 9250
@@ -1922,7 +1924,6 @@ F 1 "VDD5V" H 9500 4800 30  0000 C CNN
 	1    9500 4700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1950 6000
 NoConn ~ 1950 5700
 Text Notes 9650 6450 0    60   ~ 0
 MICRO_SD
