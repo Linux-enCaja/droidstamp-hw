@@ -1,4 +1,4 @@
-update=Fri 17 Aug 2012 06:25:31 PM COT
+update=Tue 28 Aug 2012 06:41:01 AM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -98,7 +98,7 @@ EdgeLar=39
 TxtLar=120
 MSegLar=39
 [pcbnew/libraries]
-LibDir=../modules
+LibDir=../modules;../logos
 LibName1=sockets
 LibName2=../components/diode-1
 LibName3=../components/w_conn_pc
@@ -132,3 +132,7 @@ LibName30=lead10_micropak
 LibName31=mini-usb
 LibName32=DC_JACK
 LibName33=pin_array_10x2
+LibName34=android_logo
+LibName35=android_logo_lt
+LibName36=tux
+LibName37=tux_logo_lt
