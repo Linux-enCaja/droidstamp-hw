@@ -1,4 +1,4 @@
-update=Tue 28 Aug 2012 06:41:01 AM COT
+update=Tue 28 Aug 2012 06:24:31 PM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -93,7 +93,7 @@ TxtModV=600
 TxtModH=600
 TxtModW=79
 VEgarde=39
-DrawLar=150
+DrawLar=59
 EdgeLar=39
 TxtLar=120
 MSegLar=39
@@ -132,7 +132,7 @@ LibName30=lead10_micropak
 LibName31=mini-usb
 LibName32=DC_JACK
 LibName33=pin_array_10x2
-LibName34=android_logo
-LibName35=android_logo_lt
-LibName36=tux
-LibName37=tux_logo_lt
+LibName34=android_logo_lt
+LibName35=tux_logo_lt
+LibName36=droidstamp_logo_lt
+LibName37=debian_logo_lt
