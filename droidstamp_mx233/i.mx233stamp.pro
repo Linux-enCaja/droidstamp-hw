@@ -1,4 +1,4 @@
-update=Tue 28 Aug 2012 06:24:31 PM COT
+update=Wed 05 Sep 2012 06:01:34 AM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -136,3 +136,4 @@ LibName34=android_logo_lt
 LibName35=tux_logo_lt
 LibName36=droidstamp_logo_lt
 LibName37=debian_logo_lt
+LibName38=tuxyellow_lt
