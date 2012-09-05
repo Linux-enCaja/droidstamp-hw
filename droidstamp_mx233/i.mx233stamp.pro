@@ -1,4 +1,4 @@
-update=Wed 05 Sep 2012 06:01:34 AM COT
+update=Wed 05 Sep 2012 02:30:43 PM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -134,6 +134,6 @@ LibName32=DC_JACK
 LibName33=pin_array_10x2
 LibName34=android_logo_lt
 LibName35=tux_logo_lt
-LibName36=droidstamp_logo_lt
-LibName37=debian_logo_lt
-LibName38=tuxyellow_lt
+LibName36=debian_logo_lt
+LibName37=tuxyellow_lt
+LibName38=droidstamp_logo_robot_lt
