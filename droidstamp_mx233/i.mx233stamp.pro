@@ -1,4 +1,4 @@
-update=Wed 05 Sep 2012 02:30:43 PM COT
+update=mié 12 sep 2012 20:07:45 COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -82,10 +82,9 @@ LibName59=../components/fsusb43
 LibName60=../components/usb-mini
 [pcbnew]
 version=1
-LastNetListRead=i.mx233stamp.net
-PadDrlX=0
-PadDimH=0
-PadDimV=0
+PadDrlX=400
+PadDimH=1890
+PadDimV=1890
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -97,6 +96,7 @@ DrawLar=59
 EdgeLar=39
 TxtLar=120
 MSegLar=39
+LastNetListRead=i.mx233stamp.net
 [pcbnew/libraries]
 LibDir=../modules;../logos
 LibName1=sockets
@@ -137,3 +137,4 @@ LibName35=tux_logo_lt
 LibName36=debian_logo_lt
 LibName37=tuxyellow_lt
 LibName38=droidstamp_logo_robot_lt
+LibName39=JACK_STAMPS
